@@ -64,3 +64,5 @@ function accMul(arg1, arg2) {
        img.src = item
      })
    }
+
+   
