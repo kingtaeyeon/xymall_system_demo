@@ -21,7 +21,13 @@ class LoginForm extends Component {
                     placeholder="密码"
                     addonBefore={<span className='icon-password'></span>}
                   />
-              </Form.Item>
+              </Form.Item>,
+                <Form.Item>
+                    <Input
+                        placeholder="验证码"
+                        addonBefore={<span className='icon-translate'></span>}
+                    />
+                </Form.Item>
             
           </Form>
           );
