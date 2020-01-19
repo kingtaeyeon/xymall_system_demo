@@ -2,11 +2,12 @@
      width: 100%
      height: 100% 
      background-image: url('http://renxuanwang.com/login_bg.jpg')
-     background-size: 100% 100% 
+     background-size: 100% 100%
+     font-family: "微软雅黑"
 
      input  
-          color:#61BFFF
-          border:none
+          color: #61BFFF
+          border: none
           outline: none
           box-shadow: none
           background: transparent
@@ -15,7 +16,6 @@
           width: 100%
           font-weight: 500
           font-size: 1.1rem
-          font-family: "微软雅黑"
           color: #ffffff
           display: flex
           justify-content: center
@@ -23,14 +23,17 @@
 
 
      .login-form
-          width: 21.25rem
-          height: 27.5rem
+          width: 320px
+          height: 440px
           position: absolute
           left: 50%
           top: 50%
           transform: translate(-50%, -50%)
-          box-shadow: .125rem .125rem .625rem #909090
+          background: linear-gradient(to top right, rgba(0,0,0,0.6), rgba(0,0,0,0))
           padding: 5.625rem 2.5rem 2.5rem
+          box-shadow: -15px 15px 15px rgba(0,0,0,.2)
+          transition: all 1s
+
 
           .ant-form-item 
                margin-bottom: 0
@@ -47,4 +50,33 @@
                outline: none
                box-shadow: none
 
+          .submit
+               margin-top: 20px
+               height: 42px
+               font-size: 11px
+               display: flex
+               justify-content: space-between
+               align-items: center
 
+               .login-btn
+                    padding: 10px 50px
+                    border: 2px solid #4FA1D9
+                    border-radius: 50px
+                    background: transparent
+                    font-size: 11px
+                    font-family: "微软雅黑"
+                    color: #4FA1D9
+                    transition: all .2s
+
+               .login-btn:hover
+                    color: white
+                    background: #4FA1D9
+                    cursor: pointer
+
+               .edit-btn
+                    color: #D3D7F7
+
+               .edit-btn:hover
+                    color: white
+                    background: #4FA1D9
+                    cursor: pointer
