@@ -19,7 +19,7 @@ service.interceptors.request.use((config) => {
 })
 
 service.interceptors.response.use((resp) => {
-    if(resp.data.code == 200) {
+    if(resp.data.code === 200) {
         return resp.data.data
     } else {
         //全局处理错误

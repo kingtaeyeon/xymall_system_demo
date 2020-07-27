@@ -2,7 +2,7 @@ import actionTypes from "../actions/actionTypes";
 
 const initState = {
     id: '',
-    dislpayName: '',
+    displayName: '',
     avatar: '',
     role: '',
     isLogin: false,
